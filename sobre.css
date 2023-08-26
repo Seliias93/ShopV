@@ -225,7 +225,7 @@ button:hover {
 }
 
 .left-p{
-  width: 50ch;
+  width: 64ch;
 }
 
 @media (max-width:768px){
@@ -248,8 +248,10 @@ button:hover {
 .des-p{
   flex: 1;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #191919;
     padding: 69px;
+    color: #ed2736;
+    font-size: 18px;
 }
 
 .footer-distributed{
