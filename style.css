@@ -9,7 +9,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: space-between;
-    background-color: #333;
+    background-color: rgb(0, 0, 0);
     font-size: 28px;
     padding: 10px 110px;
 }
@@ -20,34 +20,11 @@ header {
 }
 
 .intro {
-    background:  url('img/photo-15.avif') no-repeat center center;
+    background:  url('img/site-img/foto-logo2.jpg') no-repeat center center;
     background-size: cover;
-    padding: 150px 0px; 
-    text-align: center;
-    color: #f06767;
-    margin-bottom: 10px;
+    padding: 340px 0px; 
 }
 
-.intro h1 {
-
-    text-transform: uppercase;
-    font-size: 3em;
-}
-
-.intro h1::after{
-    content: '';
-    display: block;
-    width: 307px;
-    height: 2px;
-    background: #ff004c;
-    margin: 10px auto;
-}
-
-.intro p {
-    font-style: arial;
-    font-size: 1.145em;
-    font: bold;
-}
 @media (max-width: 768px) {
     .cabeca{
        padding: 5px 2px 5px 2px;
@@ -90,9 +67,9 @@ nav a {
 
 .menu-nav:hover {
     background-color: transparent;
-    border: 1px solid #f9004d;
+    border: 1px solid #ed2736;
     cursor: pointer;
-    color: #f9004d;
+    color: #ed2736
   }
 
 
@@ -225,7 +202,7 @@ p {
 }
 
 .footer-distributed h3 span{
-	color: #ff004c;
+	color: #ed2736;
 }
 
 /* Footer links */

@@ -6,33 +6,15 @@ body {
   overflow-x: hidden;
 }
 
-.cabeca {
+header {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
   justify-content: space-between;
-  background-color: #333;
+  background-color: rgb(0, 0, 0);
   font-size: 28px;
   padding: 10px 110px;
 }
-
-@media (max-width: 768px) {
-  .cabeca{
-     padding: 5px 2px 5px 2px;
-     font-size: 18px;
-    
-  }
-  .add-to-cart-btn{
-    margin-left: 9px;
-  }
-  #btn-ps{
-      margin-left: 2px;
-  }
-  .intro h1::after{
-      margin: 30px 20px;
-  }
-}
-
 
 .container{
 margin: auto;
@@ -40,13 +22,11 @@ display: block;
 }
 
 .intro {
-  background:  url('img/photo-15.avif') no-repeat center center;
+  background:  url('img/site-img/foto-logo2.jpg') no-repeat center center;
   background-size: cover;
-  padding: 150px 0px; 
-  text-align: center;
-  color: #f06767;
-  margin-bottom: 10px;
+  padding: 340px 0px; 
 }
+
 
 .intro h1 {
 
@@ -95,9 +75,9 @@ nav a {
 
 .menu-nav:hover {
   background-color: transparent;
-  border: 1px solid #f9004d;
+  border: 1px solid #ed2736;
   cursor: pointer;
-  color: #f9004d;
+  color: #ed2736;
 }
 
 .about {
@@ -107,7 +87,7 @@ nav a {
 }
 .about img {
   height: auto;
-  width: 430px;
+  width: 640px;
   transition: 0.5s;
 }
 .about img:hover {
@@ -151,7 +131,7 @@ nav a {
   text-transform: capitalize;
 }
 .about-text p {
-  color: #fcfc;
+  color: #f32c3d;
   letter-spacing: 1px;
   font-size: 18px;
   line-height: 28px;
@@ -191,7 +171,7 @@ nav a {
   }
 }
 button {
-  background-color: #f9004d;
+  background-color: #ed2736;
   color: #fff;
   text-decoration: none;
   border: 2px solid transparent;
@@ -202,7 +182,7 @@ button {
 }
 button:hover {
   background-color: transparent;
-  border: 2px solid #f9004d;
+  border: 2px solid #ed2736;
   cursor: pointer;
 }
 
@@ -305,7 +285,7 @@ button:hover {
 }
 
 .footer-distributed h3 span{
-	color: #ff004c88;
+	color: #ed2736;
 }
 
 /* Footer links */
